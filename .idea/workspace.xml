@@ -11,7 +11,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,9 +52,10 @@
         <option value="$PROJECT_DIR$/src/main/properties/test.properties" />
         <option value="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
         <option value="$PROJECT_DIR$/src/main/java/pages/TajalwalHotelBooking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/configureEnvironment/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/TajalwalFlightBooking.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightSearchStepDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/configureEnvironment/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReportConfiguration/Hooks.java" />
       </list>
     </option>
   </component>
@@ -87,11 +98,6 @@
             <path>
               <item name="MakeMyTrip_Styli" type="b2602c69:ProjectViewProjectNode" />
               <item name="MakeMyTrip_Styli" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MakeMyTrip_Styli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MakeMyTrip_Styli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -111,6 +117,22 @@
               <item name="MakeMyTrip_Styli" type="b2602c69:ProjectViewProjectNode" />
               <item name="MakeMyTrip_Styli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="configureEnvironment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MakeMyTrip_Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTrip_Styli" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MakeMyTrip_Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTrip_Styli" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -125,7 +147,8 @@
               <item name="MakeMyTrip_Styli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestRunner" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,8 +159,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620221431136" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620227570536" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\SGDoc\SGDoc\MakeMyTrip_Styli" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,7 +262,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.8317152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3131068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -285,7 +313,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/HotelSearchStepDef.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/TajalwalHotelStepDef.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinition/TajalwalHotelStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
@@ -294,9 +322,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/properties/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/properties/test.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -357,20 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/configureEnvironment/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/TajalwalFlightBooking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -381,17 +392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/FlightSearchStepDef.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinition/FlightSearchStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -402,6 +406,33 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/properties/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DockerCompose.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/configureEnvironment/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="269" lean-forward="true" selection-start-line="269" selection-end-line="269" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReportConfiguration/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>

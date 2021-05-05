@@ -1,17 +1,15 @@
-package stepDefinitions;
+package ReportConfiguration;
 
 
 import com.configureEnvironment.BasePage;
 import com.cucumber.listener.ExtentProperties;
-import com.cucumber.listener.Reporter;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
-import org.testng.ITestResult;
 
-import java.io.*;
+import java.net.MalformedURLException;
 import java.util.Date;
 
 public class Hooks {
@@ -25,7 +23,7 @@ public class Hooks {
 	 * between tests
 	 */
 	@Before
-	public void initDriver(Scenario scenario) {
+	public void initDriver(Scenario scenario) throws MalformedURLException {
 		String fileName = new Date().getTime() + ".html";
 		this.scenario = scenario;
 
