@@ -9,13 +9,16 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.*;
-import ReportConfiguration.Hooks;
+import stepDefinitions.Hooks;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -96,6 +99,12 @@ public class BasePage {
             }
         }
 
+
+        public void waitforelement(WebElement element){
+            WebDriverWait wait = new WebDriverWait(driver,30);
+            wait.until(ExpectedConditions.visibilityOf(element));
+
+        }
         public void click(WebElement element, String elementLogicalName) {
             try {
                 log.info("Submitting the form on element: " + elementLogicalName);
@@ -158,12 +167,8 @@ public class BasePage {
 
     public static class WebDriverFactory {
         private static WebDriver driver = null;
-        protected static ThreadLocal<RemoteWebDriver> remotedriver = new ThreadLocal<>();
-        public static String remote_url = "http://localhost:4444/wd/hub";
         static DesiredCapabilities options = new DesiredCapabilities();
         public static WebDriver ChromeBrowserStack() throws MalformedURLException {
-
-
             String username = System.getenv("BROWSERSTACK_USERNAME");
             if (username == null) {
                 username = "BROWSERSTACK_USERNAME";
@@ -179,14 +184,20 @@ public class BasePage {
             return driver;
         }
 
-        public static WebDriver CreateNewWebDriver(String browser, String os) throws MalformedURLException {
+        public static WebDriver configureDocker() throws MalformedURLException {
+            URL url = new URL("https://192.168.99.100:9515/wd/hub");
+            driver=new RemoteWebDriver(url,options);
+            return driver;
+        }
+
+        public static WebDriver CreateNewWebDriver(String browser, String os) {
 
             /******** The driver selected is Local: Firefox  ********/
             if (browser.equalsIgnoreCase("FIREFOX")) {
                 if (os.equalsIgnoreCase("WINDOWS")) {
                     System.setProperty("webdriver.gecko.driver", "src/test/resources/files/software/" + os + "/geckodriver.exe");
                 } else {
-                    remotedriver.set(new RemoteWebDriver(new URL(remote_url),options));
+                    System.setProperty("webdriver.gecko.driver", "src/test/resources/files/software/" + os + "/geckodriver");
                 }
                 driver = new FirefoxDriver();
             }
@@ -205,7 +216,7 @@ public class BasePage {
                 if (os.equalsIgnoreCase("WINDOWS")) {
                     System.setProperty("webdriver.chrome.driver", "src/test/resources/files/software/" + os + "/chromedriver.exe");
                 } else {
-                    remotedriver.set(new RemoteWebDriver(new URL(remote_url),options));
+                    System.setProperty("webdriver.chrome.driver", "src/test/resources/files/software/" + os + "/chromedriver");
                 }
                 driver = new ChromeDriver();
             }
@@ -245,7 +256,7 @@ public class BasePage {
         /**
          * Get the Browser from the POM
          */
-        public static WebDriver initConfig() throws MalformedURLException {
+        public static WebDriver initConfig() {
             try {
                 log.info("***********************************************************************************************************");
                 log.info("[ POM Configuration ] - Read the basic properties configuration from: " + properties);

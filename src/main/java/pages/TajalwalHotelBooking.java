@@ -3,8 +3,13 @@ package pages;
 import com.configureEnvironment.BasePage;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.junit.Assert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
 
 public class TajalwalHotelBooking extends BasePage.WebActions {
 
@@ -14,7 +19,7 @@ public class TajalwalHotelBooking extends BasePage.WebActions {
     private static By checkingDate = By.xpath("//div[@data-testid='HotelsSearchBox__FromDateButton']");
     private static By checkoutDate = By.xpath("//div[@data-testid='HotelsSearchBox__ToDateButton']");
     private static By searchHotel = By.xpath("//button[@data-testid='HotelSearchBox__SearchButton']");
-    private static By nextPageExist = By.xpath("//h3[text()='Stay flexible']");
+    private static By nextPageExist = By.xpath("//span[@data-testid='HotelSearchResult__Hotel0__TitleLabel']");
     private static By closePopUp = By.xpath("//span[text()='Close']");
     private static By errorMessage = By.xpath("//h4[text()='Sorry, we do not have any hotels in \"#$#$#$#$#\"']");
     private static By lowestprice = By.xpath("//button[@data-testid='HotelSearchResult__sort__LOWEST_PRICE']");
@@ -77,6 +82,7 @@ public class TajalwalHotelBooking extends BasePage.WebActions {
     }
 
     public void invalidInput() {
+        waitforelement(driver.findElement(closePopUp));
         click(driver.findElement(closePopUp), "Close pop up");
         Assert.assertTrue("Site is reachable", driver.findElement(errorMessage).isDisplayed());
     }
@@ -101,6 +107,7 @@ public class TajalwalHotelBooking extends BasePage.WebActions {
         Assert.assertTrue("Search for popular filter", findElementUsingLabel(popular_filter).isDisplayed());
         click(findElementUsingLabel(popular_filter), "Filter with popular search");
 
+        waitforelement(findElementUsingLabel(availability));
         Assert.assertTrue("Search for popular filter", findElementUsingLabel(availability).isDisplayed());
         click(findElementUsingLabel(availability), "Filter with popular search");
 

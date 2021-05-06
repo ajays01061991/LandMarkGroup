@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18c2a934-2086-429f-a2df-7bc4f1bc7aff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Tajalwal.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/Tajalwal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TajalwalFlightBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/TajalwalFlightBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/TajalwalFlightBooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/TajalwalFlightBooking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/TestRunner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/TestRunner/TestRunner.class" afterDir="false" />
-    </list>
+    <list default="true" id="18c2a934-2086-429f-a2df-7bc4f1bc7aff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,43 +12,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/TajalwalFlightBooking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1422#1423#0" expanded="true" />
-                <element signature="e#1446#1447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/TajalwalFlight.feature">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinition/FlightSearchStepDef.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/configureEnvironment/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="416">
+              <caret line="187" column="27" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/properties/test.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -76,9 +53,6 @@
       <find>wait</find>
     </findStrings>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -92,14 +66,13 @@
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/TajalwalHotelStepDef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/TajalwalFlight.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/TajalwalHotel.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/properties/test.properties" />
         <option value="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/TajalwalHotelBooking.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightSearchStepDef.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/configureEnvironment/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReportConfiguration/Hooks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/TajalwalFlightBooking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/TajalwalHotelBooking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/configureEnvironment/BasePage.java" />
       </list>
     </option>
   </component>
@@ -127,113 +100,79 @@
     <option name="width" value="1300" />
     <option name="height" value="740" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="LandMarkGroup-Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LandMarkGroup-Styli" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="LandMarkGroup-Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LandMarkGroup-Styli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ReportConfiguration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="LandMarkGroup-Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LandMarkGroup-Styli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="LandMarkGroup-Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LandMarkGroup-Styli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="LandMarkGroup-Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LandMarkGroup-Styli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TestRunner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="StepDefinition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="LandMarkGroup-Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LandMarkGroup-Styli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LandMarkGroup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LandMarkGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="LandMarkGroup-Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LandMarkGroup-Styli" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LandMarkGroup-Styli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LandMarkGroup-Styli" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620232581693" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LandMark_Assignment" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620237291506" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="A:\SGDoc\SGDoc\MakeMyTrip_Styli" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -298,41 +237,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2021.05.05 at 12h 08m 13s.xml">
+    <history-entry file="TestRunner - 2021.05.05 at 22h 24m 21s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2021.05.05 at 12h 16m 48s.xml">
+    <history-entry file="TestRunner - 2021.05.05 at 22h 30m 03s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2021.05.05 at 12h 27m 39s.xml">
+    <history-entry file="TestRunner - 2021.05.05 at 22h 40m 27s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2021.05.05 at 12h 33m 41s.xml">
+    <history-entry file="TestRunner - 2021.05.05 at 22h 46m 04s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2021.05.05 at 15h 37m 02s.xml">
+    <history-entry file="TestRunner - 2021.05.05 at 22h 53m 03s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2021.05.05 at 16h 18m 17s.xml">
+    <history-entry file="TestRunner - 2021.05.05 at 23h 02m 11s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2021.05.05 at 16h 22m 40s.xml">
+    <history-entry file="TestRunner - 2021.05.05 at 23h 10m 50s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2021.05.05 at 21h 39m 11s.xml">
+    <history-entry file="TestRunner - 2021.05.05 at 23h 19m 48s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2021.05.05 at 21h 40m 15s.xml">
+    <history-entry file="TestRunner - 2021.05.05 at 23h 24m 35s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2021.05.05 at 21h 40m 53s.xml">
+    <history-entry file="TestRunner - 2021.05.06 at 10h 15m 01s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26132685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2605178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,11 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/stepHelpers/AssertionSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchFlight.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/test.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/HotelSearchStepDef.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinition/TajalwalHotelStepDef.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/TajalwalHotelStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
@@ -393,12 +330,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/properties/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/properties/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
       <provider selected="true" editor-type-id="text-editor" />
@@ -406,13 +339,7 @@
     <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/com/TestRunner/TestRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="68" lean-forward="true" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/TestRunner/TestRunner.class" />
     <entry file="file://$PROJECT_DIR$/target/CucumberTestReport.json" />
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -436,73 +363,75 @@
     <entry file="file://$PROJECT_DIR$/target/rerun.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/TajalwalHotel.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/TajalwalHotelBooking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1490">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/properties/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DockerCompose.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/configureEnvironment/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="269" lean-forward="true" selection-start-line="269" selection-end-line="269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReportConfiguration/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/TajalwalFlight.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="442">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinition/FlightSearchStepDef.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/FlightSearchStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="816">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/TajalwalFlightBooking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="1513">
+          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/TajalwalHotel.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/TajalwalHotelBooking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/test.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/properties/test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/configureEnvironment/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="187" column="27" selection-start-line="187" selection-start-column="27" selection-end-line="187" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/TestRunner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

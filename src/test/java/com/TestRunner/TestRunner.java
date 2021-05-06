@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         plugin = {"com.cucumber.listener.ExtentCucumberFormatter:output/Tajalwal.html",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "StepDefinition",
+        glue = "stepDefinitions",
         dryRun = false,
         tags = {"@Smoke"})
 

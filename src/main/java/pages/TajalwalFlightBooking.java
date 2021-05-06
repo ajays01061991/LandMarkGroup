@@ -5,8 +5,12 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
+
 
 public class TajalwalFlightBooking extends BasePage.WebActions {
 
@@ -36,7 +40,7 @@ public class TajalwalFlightBooking extends BasePage.WebActions {
 
     public void addDepartureAirport(String name) {
         log.info("Add Airport from where User will Depart from\n");
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         Assert.assertTrue("Check Stop filter is present", driver.findElement(departAirport).isDisplayed());
         click(driver.findElement(departAirport), "Add departure Airport");
@@ -96,6 +100,7 @@ public class TajalwalFlightBooking extends BasePage.WebActions {
 
     public void checkEntryWithInvalidChar() {
         log.info("Check by searching Departure airport with special char,error should get generated\n");
+        waitforelement(driver.findElement(errorMessage));
         Assert.assertTrue("Error message doesn't get displayed", driver.findElement(errorMessage).isDisplayed());
     }
 

@@ -36,7 +36,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
@@ -46,7 +45,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>May 5, 2021 09:40:50 PM</span>
+			<span class='label blue darken-3 suite-start-time'>May 5, 2021 04:20:33 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -62,8 +61,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -116,10 +113,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>2</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -130,10 +127,10 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>4</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>4</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -144,10 +141,10 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='17.391%'><span class='strong'>4</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>23</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='17.391%'>4</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='65.217%'>15</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -165,11 +162,11 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Verify Tajalwal Flight booking with valid and invalid airport input</span>
-						<span class='test-time'>May 5, 2021 09:40:50 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>May 5, 2021 04:20:41 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -178,79 +175,71 @@
     <a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
     <a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-<div class='scenario node' test-id='2' status='fail'>
+<div class='scenario node' test-id='2' status='pass'>
     <div class='category-list'>
         <span class='category label'>@Smoke</span>
     </div>
-    <span class='duration right label'>0h 0m 0s+578ms</span>
+    <span class='duration right label'>0h 0m 22s+221ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Search Filter On Tajalwal</div>
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Verify Search Filter On Tajalwal</div>
     </div>
     <ul class='steps'>
         <li test-id='3' class='node given pass' status='pass'>
             <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given The user navigate to url "https://www.tajawal.com/en"</div>
                 <div class="node-step">passed</div>
         </li>
-        <li test-id='4' class='node and fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>And From Airport "Mumbai" Boarding will happen upto "Dubai" Airport</div>
-                <textarea disabled class="code-block">java.lang.NullPointerException
-	at pages.TajalwalFlightBooking.addDepartureAirport(TajalwalFlightBooking.java:45)
-	at StepDefinition.FlightSearchStepDef.fromAirportBoardingWillHappenUptoAirport(FlightSearchStepDef.java:26)
-	at ✽.And From Airport "Mumbai" Boarding will happen upto "Dubai" Airport(TajalwalFlight.feature:8)
-</textarea>
+        <li test-id='4' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And From Airport "Mumbai" Boarding will happen upto "Dubai" Airport</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='5' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And From Boarding Date "Wed May 12 2021" and returning Date "Fri May 21 2021"</div>
-                <div class="node-step">skipped</div>
+        <li test-id='5' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And From Boarding Date "Wed May 12 2021" and returning Date "Fri May 21 2021"</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='6' class='node when skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When Click on Search Flight</div>
-                <div class="node-step">skipped</div>
+        <li test-id='6' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Click on Search Flight</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='7' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And Apply filter like Stop as "Any number of stops" ,Any time as "Before 06:00" and "06:00 — 11:59" and "12:00 — 18:00" , Baggage as "Checked baggage included"</div>
-                <div class="node-step">skipped</div>
+        <li test-id='7' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Apply filter like Stop as "Any number of stops" ,Any time as "Before 06:00" and "06:00 — 11:59" and "12:00 — 18:00" , Baggage as "Checked baggage included"</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='8' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Result count from filter should be correct</div>
-                <div class="node-step">skipped</div>
+        <li test-id='8' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Result count from filter should be correct</div>
+                <div class="node-step">passed</div>
         </li>
     </ul>
 </div>
-<div class='scenario node' test-id='9' status='fail'>
+<div class='scenario node' test-id='9' status='pass'>
     <div class='category-list'>
         <span class='category label'>@Smoke</span>
     </div>
-    <span class='duration right label'>0h 0m 0s+15ms</span>
+    <span class='duration right label'>0h 0m 6s+271ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Invalid Search Filter On Tajalwal</div>
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Verify Invalid Search Filter On Tajalwal</div>
     </div>
     <ul class='steps'>
         <li test-id='10' class='node given pass' status='pass'>
             <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given The user navigate to url "https://www.tajawal.com/en"</div>
                 <div class="node-step">passed</div>
         </li>
-        <li test-id='11' class='node when fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>When From Airport "**&&^^%" Boarding will happen upto "" Airport</div>
-                <textarea disabled class="code-block">java.lang.NullPointerException
-	at pages.TajalwalFlightBooking.addDepartureAirport(TajalwalFlightBooking.java:45)
-	at StepDefinition.FlightSearchStepDef.fromAirportBoardingWillHappenUptoAirport(FlightSearchStepDef.java:26)
-	at ✽.When From Airport "**&&^^%" Boarding will happen upto "" Airport(TajalwalFlight.feature:26)
-</textarea>
+        <li test-id='11' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When From Airport "**&&^^%" Boarding will happen upto "" Airport</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='12' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Error message should get displayed</div>
-                <div class="node-step">skipped</div>
+        <li test-id='12' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Error message should get displayed</div>
+                <div class="node-step">passed</div>
         </li>
     </ul>
 </div>
 					</div>
 				</li>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='13'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='13'>
 					<div class='test-heading'>
 						<span class='test-name'>Verify Tajalwal Hotel booking with valid and invalid airport input</span>
-						<span class='test-time'>May 5, 2021 09:40:51 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>May 5, 2021 04:21:26 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -259,89 +248,81 @@
     <a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
     <a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-<div class='scenario node' test-id='14' status='fail'>
+<div class='scenario node' test-id='14' status='pass'>
     <div class='category-list'>
         <span class='category label'>@Smoke</span>
     </div>
-    <span class='duration right label'>0h 0m 0s+47ms</span>
+    <span class='duration right label'>0h 0m 49s+63ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Search Filter On Tajalwal Hotel</div>
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Verify Search Filter On Tajalwal Hotel</div>
     </div>
     <ul class='steps'>
         <li test-id='15' class='node given pass' status='pass'>
             <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given The user navigate to url "https://www.tajawal.com/en"</div>
                 <div class="node-step">passed</div>
         </li>
-        <li test-id='16' class='node then fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then Click on Hotel to switch from flight</div>
-                <textarea disabled class="code-block">java.lang.NullPointerException
-	at pages.TajalwalHotelBooking.switchToHotelTab(TajalwalHotelBooking.java:39)
-	at StepDefinition.TajalwalHotelStepDef.clickOnHotelToSwitchFromFlight(TajalwalHotelStepDef.java:17)
-	at ✽.Then Click on Hotel to switch from flight(TajalwalHotel.feature:5)
-</textarea>
+        <li test-id='16' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click on Hotel to switch from flight</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='17' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And Search hotel name or place "Seminyak" to checkIn</div>
-                <div class="node-step">skipped</div>
+        <li test-id='17' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Search hotel name or place "Seminyak" to checkIn</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='18' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And Add checkin date "Sun May 30 2021"</div>
-                <div class="node-step">skipped</div>
+        <li test-id='18' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Add checkin date "Sun May 30 2021"</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='19' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And Add checkout date "Mon Jun 14 2021"</div>
-                <div class="node-step">skipped</div>
+        <li test-id='19' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Add checkout date "Mon Jun 14 2021"</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='20' class='node when skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When Click on Search to list hotel or hotel in place</div>
-                <div class="node-step">skipped</div>
+        <li test-id='20' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Click on Search to list hotel or hotel in place</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='21' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then User land on Filtered List</div>
-                <div class="node-step">skipped</div>
+        <li test-id='21' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then User land on Filtered List</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='22' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And Apply Filter On Popular Filters using "Free cancellation" ,Availability using "Show available hotels only",Star Rating using "5 stars" and District using "Ubud City-Centre"</div>
-                <div class="node-step">skipped</div>
+        <li test-id='22' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Apply Filter On Popular Filters using "Free cancellation" ,Availability using "Show available hotels only",Star Rating using "5 stars" and District using "Ubud City-Centre"</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='23' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And Hotel "Tejaprana Bisma" with selected Filter should get displayed</div>
-                <div class="node-step">skipped</div>
+        <li test-id='23' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Hotel "Tejaprana Bisma" with selected Filter should get displayed</div>
+                <div class="node-step">passed</div>
         </li>
     </ul>
 </div>
-<div class='scenario node' test-id='24' status='fail'>
+<div class='scenario node' test-id='24' status='pass'>
     <div class='category-list'>
         <span class='category label'>@Smoke</span>
     </div>
-    <span class='duration right label'>0h 0m 0s+78ms</span>
+    <span class='duration right label'>0h 0m 13s+993ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Search Filter On Tajalwal Hotel</div>
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: Verify Search Filter On Tajalwal Hotel</div>
     </div>
     <ul class='steps'>
         <li test-id='25' class='node given pass' status='pass'>
             <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given The user navigate to url "https://www.tajawal.com/en"</div>
                 <div class="node-step">passed</div>
         </li>
-        <li test-id='26' class='node then fail' status='fail'>
-            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then Click on Hotel to switch from flight</div>
-                <textarea disabled class="code-block">java.lang.NullPointerException
-	at pages.TajalwalHotelBooking.switchToHotelTab(TajalwalHotelBooking.java:39)
-	at StepDefinition.TajalwalHotelStepDef.clickOnHotelToSwitchFromFlight(TajalwalHotelStepDef.java:17)
-	at ✽.Then Click on Hotel to switch from flight(TajalwalHotel.feature:5)
-</textarea>
+        <li test-id='26' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Click on Hotel to switch from flight</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='27' class='node and skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And Search hotel name or place "#$#$#$#$#" to checkIn</div>
-                <div class="node-step">skipped</div>
+        <li test-id='27' class='node and pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Search hotel name or place "#$#$#$#$#" to checkIn</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='28' class='node when skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When Click on Search to list hotel or hotel in place</div>
-                <div class="node-step">skipped</div>
+        <li test-id='28' class='node when pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Click on Search to list hotel or hotel in place</div>
+                <div class="node-step">passed</div>
         </li>
-        <li test-id='29' class='node then skip' status='skip'>
-            <div class="step-name" title=""><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Error page get displayed</div>
-                <div class="node-step">skipped</div>
+        <li test-id='29' class='node then pass' status='pass'>
+            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Error page get displayed</div>
+                <div class="node-step">passed</div>
         </li>
     </ul>
 </div>
@@ -389,13 +370,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>@Smoke</span>
 						<span class='category-status right'>
-						<span class='label fail'>4</span>
+						<span class='label pass'>4</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 4</span>
 							
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 4</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -409,24 +390,24 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>May 5, 2021 09:40:50 PM</td>
+										<td>May 5, 2021 04:20:41 PM</td>
 										<td class='linked' test-id='2'>Verify Tajalwal Flight booking with valid and invalid airport input.Verify Search Filter On Tajalwal</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>May 5, 2021 09:40:51 PM</td>
+										<td>May 5, 2021 04:21:14 PM</td>
 										<td class='linked' test-id='9'>Verify Tajalwal Flight booking with valid and invalid airport input.Verify Invalid Search Filter On Tajalwal</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>May 5, 2021 09:40:51 PM</td>
+										<td>May 5, 2021 04:21:26 PM</td>
 										<td class='linked' test-id='14'>Verify Tajalwal Hotel booking with valid and invalid airport input.Verify Search Filter On Tajalwal Hotel</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>May 5, 2021 09:40:51 PM</td>
+										<td>May 5, 2021 04:22:22 PM</td>
 										<td class='linked' test-id='24'>Verify Tajalwal Hotel booking with valid and invalid airport input.Verify Search Filter On Tajalwal Hotel</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -442,99 +423,7 @@
 		</div>
 	</div>
 </div>
-<!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.NullPointerException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>4</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>May 5, 2021 09:40:51 PM</td>
-										<td class='linked' test-id='4'>Verify Tajalwal Flight booking with valid and invalid airport input.Verify Search Filter On Tajalwal.And From Airport "Mumbai" Boarding will happen upto "Dubai" Airport</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at pages.TajalwalFlightBooking.addDepartureAirport(TajalwalFlightBooking.java:45)
-	at StepDefinition.FlightSearchStepDef.fromAirportBoardingWillHappenUptoAirport(FlightSearchStepDef.java:26)
-	at ✽.And From Airport "Mumbai" Boarding will happen upto "Dubai" Airport(TajalwalFlight.feature:8)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>May 5, 2021 09:40:51 PM</td>
-										<td class='linked' test-id='11'>Verify Tajalwal Flight booking with valid and invalid airport input.Verify Invalid Search Filter On Tajalwal.When From Airport "**&&^^%" Boarding will happen upto "" Airport</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at pages.TajalwalFlightBooking.addDepartureAirport(TajalwalFlightBooking.java:45)
-	at StepDefinition.FlightSearchStepDef.fromAirportBoardingWillHappenUptoAirport(FlightSearchStepDef.java:26)
-	at ✽.When From Airport "**&&^^%" Boarding will happen upto "" Airport(TajalwalFlight.feature:26)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>May 5, 2021 09:40:51 PM</td>
-										<td class='linked' test-id='16'>Verify Tajalwal Hotel booking with valid and invalid airport input.Verify Search Filter On Tajalwal Hotel.Then Click on Hotel to switch from flight</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at pages.TajalwalHotelBooking.switchToHotelTab(TajalwalHotelBooking.java:39)
-	at StepDefinition.TajalwalHotelStepDef.clickOnHotelToSwitchFromFlight(TajalwalHotelStepDef.java:17)
-	at ✽.Then Click on Hotel to switch from flight(TajalwalHotel.feature:5)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>May 5, 2021 09:40:51 PM</td>
-										<td class='linked' test-id='26'>Verify Tajalwal Hotel booking with valid and invalid airport input.Verify Search Filter On Tajalwal Hotel.Then Click on Hotel to switch from flight</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at pages.TajalwalHotelBooking.switchToHotelTab(TajalwalHotelBooking.java:39)
-	at StepDefinition.TajalwalHotelStepDef.clickOnHotelToSwitchFromFlight(TajalwalHotelStepDef.java:17)
-	at ✽.Then Click on Hotel to switch from flight(TajalwalHotel.feature:5)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -560,19 +449,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>May 5, 2021 09:40:50 PM</div>
+					<div class='panel-lead'>May 5, 2021 04:20:33 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>May 5, 2021 09:40:51 PM</div>
+			 		<div class='panel-lead'>May 5, 2021 04:22:37 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 1s+653ms</div>
+					<div class='panel-lead'>0h 2m 4s+345ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -589,11 +478,11 @@
 						</tr>
 						<tr>
 							<td>@Smoke</td>
-							<td>0</td>
 							<td>4</td>
 							<td>0</td>
+							<td>0</td>
 							<td>
-									0%
+									100%
 							</td>
 						</tr>
 					</table>
@@ -608,38 +497,38 @@
 		<script>
 			var statusGroup = {
                 parentCount: 2,
-				passParent: 0,
-				failParent: 2,
+				passParent: 2,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 2,
+				exceptionsParent: 0,
 				childCount: 4,
-				passChild: 0,
-				failChild: 4,
+				passChild: 4,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 4,
+				exceptionsChild: 0,
 				grandChildCount: 23,
-				passGrandChild: 4,
-				failGrandChild: 4,
+				passGrandChild: 23,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 15,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 19,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "Verify Tajalwal Flight booking with valid and invalid airport input":0.593,"Verify Tajalwal Hotel booking with valid and invalid airport input":0.125
+			        "Verify Tajalwal Flight booking with valid and invalid airport input":39.326,"Verify Tajalwal Hotel booking with valid and invalid airport input":69.941
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
